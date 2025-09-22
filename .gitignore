@@ -1,0 +1,25 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Bot data folders
+bot_data/
+temp_attachments/
+
+# Log files
+*.log
+scheduler_bot.log
+
+# Specific IDE files
+.idea/
+.vscode/
+
+# File with secrets (NEVER add it to Git)
+.env
